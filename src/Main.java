@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        Clothing[] cloths = new Clothing[][4];
+        Clothing[] clothes = new Clothing[4];
 
-        cloths[0] = new Tshirt(Size.XXS, 500, "black");
-        cloths[1] = new Pants(Size.XS, 1200, "green");
-        cloths[2] = new Skirts(Size.M, 1000, "blue");
-        cloths[3] = new necktie(Size.L, 900, "yellow");
+        clothes[0] = new Tshirt(Size.XXS, 123, "Амарантово-розовый");
+        clothes[1] = new Pants(Size.XS, 1234, "Бледно-каштановый");
+        clothes[2] = new Skirts(Size.M, 12345, "Темный желто-зеленый");
+        clothes[3] = new necktie(Size.L, 123456, "Каменно-серый");
 
-        atelier studio = new Atelier();
+        atelier atelier = new atelier();
 
-        studio.dressMan(cloths);
-        studio.dressWoman(cloths);
+        atelier.dressMan(clothes);
+        atelier.dressWoman(clothes);
     }
 }

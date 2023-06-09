@@ -1,6 +1,6 @@
 public class atelier {
     public void dressMan(Clothing[] cloths) {
-        System.out.println("Men's clothing:");
+        System.out.println("Мужская одежда: ");
         for (Clothing cloth: cloths){
             if(cloth instanceof menClothing){
                 cloth.info();
@@ -10,7 +10,7 @@ public class atelier {
     }
 
     public void dressWoman(Clothing[] cloths) {
-        System.out.println("Women's clothing:");
+        System.out.println("\nЖенская одежда: ");
         for (Clothing cloth: cloths){
             if(cloth instanceof womenClothing){
                 cloth.info();
